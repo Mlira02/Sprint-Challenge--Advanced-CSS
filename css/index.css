@@ -234,6 +234,12 @@ footer {
   color: white;
   border-radius: 5px;
 }
+@media (min-width: 500px) {
+  .home .walk .walk-text button {
+    width: 100%;
+    height: 25px;
+  }
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
@@ -242,4 +248,22 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (min-width: 500px) {
+  .top-half {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 500px) {
+  .sky {
+    height: 0;
+    Width: 0;
+  }
+}
+@media (min-width: 500px) {
+  .launch {
+    height: 0;
+    width: 0;
+  }
 }

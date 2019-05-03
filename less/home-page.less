@@ -62,6 +62,10 @@
         background-color: black;
         color: white;
         border-radius: 5px;
+
+        @media @phone {
+          .button(100% , 25px);
+        }
       }
     }
 
@@ -77,3 +81,24 @@
     }
   }
 }// home
+
+.top-half {
+  @media @phone {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.sky {
+  @media @phone {
+    height: 0;
+    Width: 0;
+  }
+}
+
+.launch {
+  @media @phone {
+    height: 0;
+    width: 0;
+  }
+}
