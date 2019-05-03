@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive uses servers to help figure out what screen size the user is using and changes the layout bsed on that. Responsive uses media queries to help the user get a better experience.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means that the developer is focusing on building the site for mobile users first and then for web users. desktop first switches that and focuses on the desktop experience first.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+placing the font-size at 62.5% will make the default browser font size 10 px which would make 1rem 10px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is a tool that adds more functionality to CSS. helps keep your code cleaner and can be sectioned into other files and used whenever it is needed.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+nesting is my favorite concept. To be able to keep your code more in order is the best! the most difficult is variables. I have a little trouble understanding how they fit into regular code.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -110,13 +120,13 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [X]  Use at least 2 parameters to create your button
 
-* [ ] Create a hover state that swaps the background color and font color of the base button styles.
+* [X] Create a hover state that swaps the background color and font color of the base button styles.
 
 ### Mobile Design
 
-* [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
+* [X] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
-* [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+* [X] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
 * [ ] Push your changes and create a pull request if you haven't already.
 

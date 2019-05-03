@@ -46,8 +46,16 @@
     display: flex;
     justify-content: center;
 
+    @media @phone {
+      flex-direction: column-reverse;
+    }
+
     .walk-text {
       width: 50%;
+
+      @media @phone{
+        width:100%;
+      }
 
       h3 {
         margin-bottom: 10px;
@@ -63,9 +71,14 @@
         color: white;
         border-radius: 5px;
 
+        &:hover {
+            background-color: white;
+            color: red;
+          }
+
         @media @phone {
-          .button(100% , 25px);
-        }
+          .button(100% , 50px);
+
       }
     }
 
@@ -91,14 +104,25 @@
 
 .sky {
   @media @phone {
-    height: 0;
-    Width: 0;
+    .zero();
   }
 }
 
 .launch {
   @media @phone {
-    height: 0;
-    width: 0;
+    .zero();
   }
 }
+}
+
+.top-img {
+  width:100%;
+}
+
+.blast {
+  @media @phone {
+    height: 100%;
+    width: 100%;
+  }
+}
+
